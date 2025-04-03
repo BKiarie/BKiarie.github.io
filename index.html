@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stle.css"> 
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <!-- Hero Section -->
+<header id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-flex">
+            <div class="hero-text">
+                <h1>Hello, I Am Brian Kiarie<br> Welcome To My Portfolio</h1>
+                <p>
+                    <span class="wiggle-text">Full Stack Developer</span> | 
+                    <span class="wiggle-text">Problem Solver</span> | 
+                    <span class="wiggle-text">Tech Enthusiast</span>
+                </p>
+            </div>
+            <div class="profile-image">
+                <img src="image 1.png" alt="Profile Image">
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Dedicated software developer skilled in PHP, C#, Java, and Python, with hands-on experience in Laravel, MySQL, and MariaDB. My passion lies in crafting innovative and user-friendly applications that meet client needs and exceed user expectations. I thrive on tackling complex challenges and continuously seek opportunities to leverage my diverse skill set to deliver high-quality, impactful solutions that drive success.</p>
+                <a href="Brian Kiarie Cv. .pdf" class="cv-button" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Proficient Programming Languages</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>PHP / Laravel</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-card">
+                <h3>Bachelor of Arts with IT</h3>
+                <p class="institution">Maseno University</p>
+                <p class="year">2020 - 2024</p>
+            </div>
+            <div class="education-card">
+                <h3>Full Stack Software Development</h3>
+                <p class="institution">Power Learn Project</p>
+                <p class="year">2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A responsive portfolio website to showcase my skills and projects.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Task Management App</h3>
+                <p>A web app for managing tasks with deadlines and categorization.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>E-commerce Store</h3>
+                <p>An online store where users can browse and purchase products.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form class="contact-form" action="your-server-endpoint" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Reach Me Section -->
+    <section id="reach-me" class="reach-me">
+        <h2>Reach Me</h2>
+        <div class="reach-me-content">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:kiariebrian8@gmail.com">kiariebrian8@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254710913737">+254 710 913 737</a></p>
+            <div class="social-links">
+                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <img src="twitter.png" alt="Twitter" class="social-icon">
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <img src="linked in.png" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
