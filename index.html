@@ -13,6 +13,7 @@
             <div class="logo">
                 <a href="#home">Portfolio</a>
             </div>
+            <button class="nav-toggle">☰</button>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -24,31 +25,31 @@
         </div>
     </nav>
 
-   <!-- Hero Section -->
-<header id="home" class="hero">
-    <div class="hero-content">
-        <div class="hero-flex">
-            <div class="hero-text">
-                <h1>Hello, I Am Brian Kiarie<br> Welcome To My Portfolio</h1>
-                <p>
-                    <span class="wiggle-text">Full Stack Developer</span> | 
-                    <span class="wiggle-text">Problem Solver</span> | 
-                    <span class="wiggle-text">Tech Enthusiast</span>
-                </p>
-            </div>
-            <div class="profile-image">
-                <img src="image 1.png" alt="Profile Image">
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-flex">
+                <div class="hero-text">
+                    <h1>Hello, I Am Brian Kiarie<br> Welcome To My Portfolio</h1>
+                    <p>
+                        <span class="wiggle-text">Full Stack Developer</span> | 
+                        <span class="wiggle-text">Problem Solver</span> | 
+                        <span class="wiggle-text">Tech Enthusiast</span>
+                    </p>
+                </div>
+                <div class="profile-image">
+                    <img src="image 1.png" alt="Profile Image">
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
     <!-- About Section -->
     <section id="about" class="about">
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>Dedicated software developer skilled in PHP, C#, Java, and Python, with hands-on experience in Laravel, MySQL, and MariaDB. My passion lies in crafting innovative and user-friendly applications that meet client needs and exceed user expectations. I thrive on tackling complex challenges and continuously seek opportunities to leverage my diverse skill set to deliver high-quality, impactful solutions that drive success.</p>
+                <p>Dedicated software developer skilled in PHP, C#, Java, and Python, with hands-on experience in Laravel, MySQL, and MariaDB. My passion lies in crafting innovative and user-friendly applications that meet client needs and exceed user expectations.</p>
                 <a href="Brian Kiarie Cv. .pdf" class="cv-button" download>Download CV</a>
             </div>
         </div>
@@ -162,5 +163,14 @@
         </div>
         <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
+
+    <script>
+        const toggleButton = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle display of nav links
+        });
+    </script>
 </body>
 </html>
